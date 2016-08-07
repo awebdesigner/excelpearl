@@ -1,0 +1,158 @@
+/*
+*Theme Name: Excel Pearl
+*Description: Free Clean for Charity, Business or Magazine Sites
+*Tags: Free Premium Theme, Boostrap, 3+ Homepages, HTML5, Jquery, Responsive, WordPress, Color, Mobile, Supports Woocommerce, Supports Page Builder, 
+*Theme URI: http://github.com/awebdesigner/exceluganda
+*Author: awebdesigner
+*Author URI: http://gagawalagraphics.com
+*Version: 1.0
+*Text domain: excelpearl
+*License:      GNU General Public License v2 or later
+*License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+body{
+	font-family: utaash;
+	font-size: 2rem;
+	color: #404041;
+}
+a{
+	text-decoration: none;
+	color: #404041;
+	font-family: "nueva std";
+}
+a:hover{
+	text-decoration: none;
+	color: #f25f43;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-right: 1px;
+    padding-left: 1px;
+}
+h1,h2,h3,h4,h5,h6{
+	padding: 0 !important;
+	margin: 0 !important;
+	font-family: "nueva std"
+}
+.navbar-default {
+    background: #fff ;
+    border: none;
+    border-top: 2px solid #f25f43;
+    border-bottom: 2px solid #f25f43;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #f25f43;
+}
+.navbar{
+    border-radius:0;
+   -moz-border-radius: 0;
+ webkit-border-radiud:0;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+	    font-family: "nueva std";
+    color: #f25f43;
+    border: none;
+    transition: background-color 0.7s ease;
+}
+.navbar-default .navbar-nav > li.active > a {
+    color: #fff;
+    background-color: #f25f43;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #fff;
+    background-color: #f25f43;
+}
+.header{
+	text-align: center;
+	padding: 5px;
+	}
+.header a{
+	display: block;
+	margin: 10px 0;	
+}
+.header #logo img{
+	width: 200px;
+	}
+.box{
+	height: 300px;
+	background: #f25f43;
+	color: #fff;
+	text-align: center;
+	padding-top: 100px;
+}
+.sm-btn{
+	font-family: "nueva std";
+	padding: 5px;
+}
+.big-btn{
+	background: #f25f43;
+	color: #fff;
+	margin: 1px 0;
+}
+.btn-icon{
+	font-size: 6rem;
+	text-align: center;
+}
+.btn-txt{
+	font-family: "nueva std";
+	padding: 15px;
+	text-align:center;
+	}
+.content{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.sm-highlight {
+	border-radius:50px;
+	border: 2px solid #f25f43;
+	padding: 5px 15px;
+}
+.highlight{
+	border: 2px solid #404041;
+	margin:2px 0;
+	padding: 15px 5px;
+	font-family: "nueva std";
+	}
+.dark{
+	background: #404041;
+	color: #fff;
+	}
+.outline{
+
+	color: #404041;
+}
+#copyright{
+	font-size: 1.3rem;
+	border-top: 2px solid #BBBDC0;
+}
+#copyright a{
+	color: #f25f43;
+}
+#copyright a:hover{
+	color: #404041;
+}
+/* Responsive */
+@media only screen and (min-width:992px){
+	.header{
+	padding: 40px;
+	}
+.header a{
+	display:inline;
+	}
+	#logo{
+	margin-right: 100px;
+	}
+.header #logo img{
+	width: 350px;
+	}
+#signup-form{
+	width: 500px;
+	margin:70px auto;
+	}
+#designer{
+	text-align: right;
+}
